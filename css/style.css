@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+nav ul li {
+    display: inline;
+    margin: 15px;
+    font-size: 25px;
+}
+body {
+    background-color: rgba(113, 228, 13, 0.425);
+}
+main p {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+main h3 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    padding-left: 20px;
+
+}
+
+header h1{
+    padding-top: 20px;
+    
+}
+main ol li {
+    padding-left: 20px;
+}
