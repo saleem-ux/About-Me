@@ -3,125 +3,79 @@ let user = prompt('Hello, Could you please enter your name')
 alert(user + ', Welcome to my website')
 //console.log(user);
 
-let user1 = prompt('Do you know me?');
+let user1 = prompt('Do you think i like games?');
 switch (user1.toLowerCase()) {
     case 'yes':
-        //console.log('yes , you do');
-        alert('Yes , I do');
-        break;
-
     case 'y':
          //console.log('yes , you do');
-         alert('Yes , I do');
+         alert('Correct answer');
          break;
         
-     case 'no':
-         //console.log('no , you do not');
-         alert('No , I do not');
-         break;
-
+    case 'no':
     case 'n':
         //console.log('no , you do not');
-         alert('No , I do not');
+         alert('You are wrong');
          break;
           
-
 }
-let user2 = prompt('Do you think this site will be beneficial?');
+let user2 = prompt('Do you think i like swimming?');
 switch (user2.toLowerCase()) {
     case 'yes':
-        //console.log('yes , you do');
-        alert('Yes , I do');
-        break;
-
     case 'y':
         // console.log('yes , you do');
-         alert('Yes , I do');
+         alert('Correct answer');
          break;
         
-     case 'no':
-         //console.log('no , you do not');
-         alert('No , I do not');
-         break;
-
+    case 'no':
     case 'n':
         //console.log('no , you do not');
-         alert('No , I do not');
+         alert('You are wrong');
          break;
           
-
 }
-let user3 = prompt('Are you interested to know about my experience?');
+let user3 = prompt('Do you think i like reading?');
 switch (user3.toLowerCase()) {
     case 'yes':
-        //console.log('yes , you do');
-        alert('Yes , I do');
-        break;
-
     case 'y':
          //console.log('yes , you do');
-         alert('Yes , I do');
+         alert('Correct answer');
          break;
         
-     case 'no':
-        // console.log('no , you do not');
-         alert('No , I do not');
-         break;
-
+    case 'no':
     case 'n':
         //console.log('no , you do not');
-         alert('No , I do not');
+         alert('Wrong answer');
          break;
           
-
 }
-let user4 = prompt('Are you interested to know about my academic education?');
+let user4 = prompt('Do you think i like drawing?');
 switch (user4.toLowerCase()) {
     case 'yes':
-        //console.log('yes , you do');
-        alert('Yes , I do');
-        break;
-
     case 'y':
          //console.log('yes , you do');
-         alert('Yes , I do');
+         alert('Wrong answer');
          break;
         
-     case 'no':
-         //console.log('no , you do not');
-         alert('No , I do not');
-         break;
-
+    case 'no':
     case 'n':
         //console.log('no , you do not');
-         alert('No , I do not');
+         alert('Correct answer');
          break;
           
-
 }
-let user5 = prompt('Would you like to share this website with your friends?');
+let user5 = prompt('Do you think i like watching tv?');
 switch (user5.toLowerCase()) {
     case 'yes':
-        //console.log('yes , you do');
-        alert('Yes , I will');
-        document.write(user + ' , hope you like my website')
-        break;
-
     case 'y':
          //console.log('yes , you do');
-         alert('Yes , I will');
+         alert('You are right');
          document.write(user + ' , hope you like my website')
          break;
         
-     case 'no':
-         //console.log('no , you do not');
-         alert('No , I will not');
-         document.write(user + ' , hope you like my website')
-         break;
-
+    case 'no':
     case 'n':
         //console.log('no , you do not');
-         alert('No , I will not');
+         alert('You are wrong');
          document.write(user + ' , hope you like my website')
          break;
           
